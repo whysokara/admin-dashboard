@@ -1,13 +1,15 @@
 import Topbar from "./components/topbar/Topbar";
 import Sidebar from "./components/sidebar/Sidebar";
 import "./app.css";
+import Home from "./components/pages/home/Home";
+
 function App() {
   return (
     <div>
       <Topbar />
       <div className="container">
         <Sidebar />
-        <div className="others">Other</div>
+        <Home />
       </div>
     </div>
   );
